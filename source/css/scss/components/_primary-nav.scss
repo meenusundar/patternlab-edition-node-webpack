@@ -1,0 +1,49 @@
+/*------------------------------------*\
+    #PRIMARY NAVIGATION
+\*------------------------------------*/
+
+/**
+ * Navigation tag
+ */
+.c-primary-nav {
+	display: none;
+	background: $color-brand-spanish-grey;
+	&--is-active {
+		display: block;
+		position: absolute;
+		padding: 1em 2em;
+		top: 67px;
+		right: 0;
+		box-shadow: -3px 3px 5px -2px rgba(0, 0, 0, 0.2);
+		z-index: 2;
+	}
+
+	@media all and (min-width: $bp-med) {
+		display: block;
+		margin-right: 1rem;
+	}
+}
+
+/**
+ * Nav List
+ */
+.c-primary-nav__list {
+	display: none;
+
+	@media all and (min-width: $bp-med) {
+		display: flex;
+	}
+
+	.c-primary-nav--is-active & {
+		display: block;
+	}
+}
+
+/**
+ * Nav Links
+ */
+.c-primary-nav__link {
+	color: white;
+	display: block;
+	padding: 1rem;
+}

@@ -1,0 +1,34 @@
+/*------------------------------------*\
+    #HEADINGS
+\*------------------------------------*/
+
+/**
+ * Heading 1
+ */
+h1  {
+	font-size: 3rem;
+	line-height: 1.2;
+	font-family: 'Amatic SC';
+}
+
+/**
+ * Heading 2
+ */
+h2 {
+	line-height: 1.2;
+}
+
+/**
+ * Heading 3
+ */
+h3  {
+	line-height: 1.2;
+}
+
+/**
+ * Subheading
+ */
+.subheading {
+	font-family: $font-secondary;
+	font-weight: normal;
+}
