@@ -26,10 +26,10 @@
       "css": "./public/css/"
     }
   },
-  /* "server": {
+  "server": {
     "url": "http://localhost",
-    "port": "3000"
-  }, */
+    "port": 3000
+  },
   "webpackMerge": {
     "entry":"replace"
   },
