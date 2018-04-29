@@ -25,17 +25,17 @@
     "Paul Wright <paul@paintedbicycle.com>"
   ],
   "scripts": {
-    "start": "npm run patternlab:serve",
+    "start": "npm run patternlab:serveprod",
     "webpack:version": "webpack --v",
     "patternlab:build": "webpack --env.prod -p",
+    "patternlab:serveprod": "webpack-dev-server --env.prod --progress --colors",
     "patternlab:serve": "webpack-dev-server --env.dev --hot --progress --colors",
     "patternlab:version": "node patternlab.js version",
     "patternlab:help": "node patternlab.js help",
     "patternlab:patternsonly": "node patternlab.js patternsonly",
     "patternlab:liststarterkits": "node patternlab.js liststarterkits",
     "patternlab:loadstarterkit": "node patternlab.js loadstarterkit",
-    "patternlab:installplugin": "node patternlab.js installplugin",
-    "postinstall": "node scripts/postinstall.js"
+    "patternlab:installplugin": "node patternlab.js installplugin"
   },
   "license": "Apache-2.0",
   "engines": {
