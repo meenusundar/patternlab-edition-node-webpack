@@ -27,7 +27,7 @@ module.exports = {
     }
   },
   server: {
-    url: 'http://0.0.0.0',
+    url: 'http://localhost',
     port: process.env.PORT || 3000
   },
   webpackMerge: {
