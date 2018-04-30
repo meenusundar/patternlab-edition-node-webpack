@@ -95,7 +95,7 @@ To watch for changes, re-generate the front-end, and server it via a BrowserSync
 
     npm run patternlab:serve
 
-Webpack dev server should open [http://localhost:3000](http://localhost:3000) in your browser, both host and port are configurable in the `patternlab-config.json` file.
+Webpack dev server should open [http://localhost:3000](http://localhost:3000) in your browser, both host and port are configurable in the `patternlab-config.js` file.
 
 ### Install a StarterKit
 
@@ -120,7 +120,7 @@ You can set the url and port number in the configuration for
 #### Setting the Webpack Merge Options
 In this edition, it's important to make the configuration for webpack something very easy to update, and very easy to modify. The current setting for webpack merge are described [here.](https://github.com/Comcast/patternlab-edition-node-webpack/blob/master/source/_app/readme.md)
 
-You can change how it merges by changing this object in `patternlab-config.json`:
+You can change how it merges by changing this object in `patternlab-config.js`:
     
     "webpackMerge": {
         "entry":"replace"
