@@ -14,7 +14,9 @@
     "styleguidekit-mustache-default": "^3.0.0",
     "webpack": "^3.10.0",
     "webpack-config-utils": "^2.3.0",
-    "webpack-merge": "^4.1.0"
+    "webpack-merge": "^4.1.0",
+    "babel-preset-env": "^1.6.1",
+    "webpack-dev-server": "^2.9.5"
   },
   "repository": "git@github.com:Comcast/patternlab-edition-node-webpack.git",
   "bugs": "https://github.com/Comcast/patternlab-edition-node-webpack/issues",
@@ -58,9 +60,5 @@
         }
       ]
     ]
-  },
-  "devDependencies": {
-    "babel-preset-env": "^1.6.1",
-    "webpack-dev-server": "^2.9.5"
   }
 }
