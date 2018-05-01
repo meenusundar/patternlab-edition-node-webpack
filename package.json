@@ -19,7 +19,6 @@
     "webpack-dev-server": "^2.9.5",
     "webpack-merge": "^4.1.0",
     "nodemon": "^1.17.3"
-
   },
   "repository": "git@github.com:Comcast/patternlab-edition-node-webpack.git",
   "bugs": "https://github.com/Comcast/patternlab-edition-node-webpack/issues",
