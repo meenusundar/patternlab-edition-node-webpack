@@ -1,8 +1,17 @@
 {
 	"primaryNav" : [
-        {
-  		  "label": "Dashboard",
-  		  "url": "link.pages-dashboard"
+		{
+			"label": "Dashboard",
+			"url": "link.pages-about"
+		},
+		{
+			"label": "Blog",
+			"url": "link.pages-dashboard"
+		},
+
+			{
+  		  "label": "Contact",
+  		  "url": "link.pages-contact"
   	  }
     ],
     "alert" : {
