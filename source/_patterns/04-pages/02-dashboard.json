@@ -3,18 +3,6 @@
         {
   		  "label": "Dashboard",
   		  "url": "link.pages-dashboard"
-  	  },
-  	  {
-  		  "label": "Friends",
-  		  "url": "#"
-  	  },
-  	  {
-  		  "label": "Hikes",
-  		  "url": "#"
-  	  },
-  	  {
-  		  "label": "Logout",
-  		  "url": "link.pages-login"
   	  }
     ],
     "alert" : {
@@ -22,31 +10,18 @@
 	},
     "blockFeature" : {
 	    "styleModifier" : "featured",
-	    "number" : "4,500",
 	    "headline" : {
-			"short": "Feet of Elevation Gain"
+			"short": "Graduation"
 		},
-		"progress" : {
-			"max" : "100",
-			"progressValue" : "100",
-			"label" : "Progress: 100%"
-		}
 
     },
     "tileList" : [
 		{
-			"number" : "16",
 			"headline" : {
-				"short": "National Parks"
+				"short": ""
 			},
-			"progress" : {
-				"max" : "100",
-				"progressValue" : "20",
-				"label" : "Progress: 20%"
-			}
 		},
 		{
-			"number" : "500",
 			"headline" : {
 				"short": "Hikes"
 			},
@@ -57,7 +32,6 @@
 			}
 		},
 		{
-			"number" : "62,500",
 			"headline" : {
 				"short": "Calories Burned"
 			},
@@ -68,9 +42,8 @@
 			}
 		},
 		{
-			"number" : "94,300,843",
 			"headline" : {
-				"short": "Steps"
+				"short": ""
 			},
 			"progress" : {
 				"max" : "100",
@@ -80,7 +53,7 @@
 		}
     ],
     "featuredChallenges" : {
-	    "sectionTitle" : "Challenges",
+	    "sectionTitle" : "Recent Blogs",
 	    "mediaList" : [
 			{
 				"url" : "link.pages-blog-detail",
@@ -89,10 +62,10 @@
 					"alt": "red mountains"
 				},
 				"headline" : {
-					"short" : "Hardest Hikes in the World"
+					"short" : "Graduation"
 				},
 				"excerpt" : {
-					"medium" : "The world delivers a multitude of daunting hikes. How difficult? We have listed some of the most strenuous hikes in the world."
+					"medium" : "On graduation and the last few days of senior year."
 				}
 
 			},
@@ -188,7 +161,7 @@
 					"url" : "#",
 					"number" : "8"
 				}
-			]			
+			]
 		}
     },
     "featuredPeople" : {
