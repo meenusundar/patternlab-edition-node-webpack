@@ -163,56 +163,5 @@
 				}
 			]
 		}
-    },
-    "featuredPeople" : {
-		"sectionTitle" : "Friends",
-		"mediaList": [
-			{
-				"url" : "",
-				"styleModifier" : "small",
-				"imgSquare" : {
-					"src": "../../../images/sample/avatar4.jpg",
-					"alt": "avatar"
-				},
-				"headline" : {
-					"short" : "Danny DeVito"
-				},
-				"excerpt" : {
-					"medium" : "Neptune Township, NJ"
-				}
-
-			},
-			{
-				"url" : "",
-				"styleModifier" : "small",
-				"imgSquare" : {
-					"src": "../../../images/sample/avatar6.jpg",
-					"alt": "avatar"
-				},
-				"headline" : {
-					"short" : "Sally Jessy Raphael"
-				},
-				"excerpt" : {
-					"medium" : "Easton, PA"
-				}
-
-			},
-			{
-				"url" : "",
-				"styleModifier" : "small",
-				"imgSquare" : {
-					"src": "../../../images/sample/avatar5.jpg",
-					"alt": "avatar"
-				},
-				"headline" : {
-					"short" : "Charlie Chaplin"
-				},
-				"excerpt" : {
-					"medium" : "London, UK"
-				}
-
-			}
-		],
-		"btnText" : "View All Friends"
-	}
+    }
 }
